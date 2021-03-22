@@ -1,15 +1,16 @@
 package myapp;
 
-import java.awt.Font;
-import java.awt.event.ActionEvent;
-
-import org.graalvm.compiler.phases.common.NodeCounterPhase.Stage;
-
 import javafx.application.Application;
+import javafx.application.Platform;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
-import jdk.tools.jlink.internal.Platform;
+import javafx.scene.text.Font;
+import javafx.stage.Stage;
 
 public class AppMain extends Application {
 
