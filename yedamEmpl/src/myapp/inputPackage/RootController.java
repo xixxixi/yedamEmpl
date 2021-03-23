@@ -56,7 +56,7 @@ public class RootController implements Initializable {
 		txtContent.setText("");
 	}
 
-	public void handleBtnCancleAction(ActionEvent e) {
+	public void handleBtnCancelAction(ActionEvent e) {
 		Platform.exit();
 	}
 
